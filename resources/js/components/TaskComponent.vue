@@ -65,9 +65,9 @@ export default {
             enabled: true,
             text: '',
             list: [
-                {id: 1, title: "ram"},
-                {id: 2, title: "shyam"},
-                {id: 3, title: "hari"}
+                // {id: 1, title: "ram"},
+                // {id: 2, title: "shyam"},
+                // {id: 3, title: "hari"}
             ],
             updatedDataList: [],
             dragging: false,

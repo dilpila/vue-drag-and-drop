@@ -2009,16 +2009,10 @@ var id = 1;
     return {
       enabled: true,
       text: '',
-      list: [{
-        id: 1,
-        title: "ram"
-      }, {
-        id: 2,
-        title: "shyam"
-      }, {
-        id: 3,
-        title: "hari"
-      }],
+      list: [// {id: 1, title: "ram"},
+        // {id: 2, title: "shyam"},
+        // {id: 3, title: "hari"}
+      ],
       updatedDataList: [],
       dragging: false
     };
