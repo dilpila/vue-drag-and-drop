@@ -2039,8 +2039,9 @@ var id = 1;
     },
     checkMove: function checkMove(e) {
       this.updatedDataList = e.relatedContext.list;
-      this.updatedDataList.map(function (res, i) {
+      this.updatedDataList = this.updatedDataList.map(function (res, i) {
         res.order_new = i;
+        return res;
       });
     },
     remove: function remove(id) {

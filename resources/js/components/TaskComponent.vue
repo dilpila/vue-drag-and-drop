@@ -94,8 +94,9 @@ export default {
 
         checkMove: function (e) {
             this.updatedDataList = e.relatedContext.list;
-            this.updatedDataList.map((res,i) => {
+            this.updatedDataList = this.updatedDataList.map((res,i) => {
                 res.order_new = i;
+                return res;
             });
 
         },
